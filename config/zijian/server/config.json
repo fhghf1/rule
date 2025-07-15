@@ -7,7 +7,7 @@
             "users": [
                 {
                     "name": "user",
-                    "password": "hubusercontent"
+                    "password": "123456"
                 }
             ],
             "padding_scheme": [
@@ -23,11 +23,11 @@
             ],
             "tls": {
                 "enabled": true,
-                "server_name": "www.microsoft.com",
+                "server_name": "yahoo.com",
                 "reality": {
                     "enabled": true,
                     "handshake": {
-                        "server": "www.microsoft.com",
+                        "server": "yahoo.com",
                         "server_port": 443
                     },
                     "private_key": "eO3B3EMGXrYfGOe87NkUVusaeUxtLB4vxiqjVXqb9GU",
