@@ -26,16 +26,16 @@
         {
             "type": "anytls",
             "tag": "anytls-out",
-            "server": "a.coloz.dpdns.org",
+            "server": "23.94.158.88",
             "server_port": 443,
-            "password": "hubusercontent",
+            "password": "123456",
             "idle_session_check_interval": "30s",
             "idle_session_timeout": "30s",
             "min_idle_session": 5,
             "tls": {
                 "enabled": true,
                 "disable_sni": false,
-                "server_name": "www.microsoft.com",
+                "server_name": "yahoo.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
