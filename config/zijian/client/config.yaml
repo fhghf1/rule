@@ -12,36 +12,28 @@ proxy-providers:
 
 # 节点信息 # dialer-proxy: 香港手动
 proxies:
-  - name: "SS"
-    type: ss
-    server: "147.79.20.99"
-    port: 80
-    cipher: 2022-blake3-aes-128-gcm
-    password: "hztQCU1ZB8CAuPMVFJiCJw=="
-    udp: true
-
   - name: "VLESS-Vision-Reality"
     type: vless
-    server: "147.79.20.99"
+    server: "a.coloz.dpdns.org"
     port: 443
     udp: true
     uuid: "625a08bb-d372-4f7c-a2d4-6a50ca3393ce"
     flow: xtls-rprx-vision
     packet-encoding: xudp
     tls: true
-    servername: "www.microsoft.com"
+    servername: "www.apple.com"
     client-fingerprint: chrome
     reality-opts:
-      public-key: "2GPEbCh3ZVgGXbwzo1TzCe38JPvMm8HRSxuOuKspKAE"
+      public-key: "3bHehJSmbJisj0LP3kX4Yf-4u_psIOqzXBiH24N3ZGQ"
       short-id: "a118b9425a7e2dc5"
     skip-cert-verify: false
   
   - name: "HYSTERIA2"
     type: hysteria2
-    server: yu.ykszckj.com
-    port: 52021
+    server: a.coloz.dpdns.org
+    port: 52022
     password: "c36d52aa-12b0-420c-a409-02f0410f6ac4"
-    up: "100 Mbps"
+    up: "600 Mbps"
     down: "800 Mbps"
     obfs: salamander
     obfs-password: "71c42203-ee95-44f9-97f2-3fefe254f223"
