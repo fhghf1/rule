@@ -30,17 +30,6 @@
   },
   "inbounds": [
     {
-      "tag":"SS",
-      "type": "shadowsocks",
-      "listen": "::",
-      "listen_port": 80,
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "hztQCU1ZB8CAuPMVFJiCJw==",
-      "multiplex": {
-          "enabled": true
-      }
-    },
-    {
       "tag":"VLESS-Vision-Reality",
       "type":"vless",
       "listen":"::",
@@ -53,14 +42,14 @@
       ],
       "tls":{
           "enabled":true,
-          "server_name":"www.microsoft.com",
+          "server_name":"www.apple.com",
           "reality":{
               "enabled":true,
               "handshake":{
-                  "server":"www.microsoft.com",
+                  "server":"www.apple.com",
                   "server_port":443
               },
-              "private_key":"mAQVEs96AtDg1V_b2POFVP8n-Uu6hBe0_1Zt-DtRzGE",
+              "private_key":"YHsK8KxdCIikLtsX_q35j5dZ-BDMIUbe18VTqKka1nM",
               "short_id":[
                   "a118b9425a7e2dc5"
               ]
@@ -86,8 +75,8 @@
         "alpn": [
           "h3"
         ],
-        "certificate_path": "/etc/ssl/yu.ykszckj.com/yu.ykszckj.com.crt",
-        "key_path": "/etc/ssl/yu.ykszckj.com/yu.ykszckj.com.key"
+        "certificate_path": "/etc/ssl/a.coloz.dpdns.org/a.coloz.dpdns.org.crt",
+        "key_path": "/etc/ssl/a.coloz.dpdns.org/a.coloz.dpdns.org.key"
       }
     }
   ],
